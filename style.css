@@ -11,7 +11,7 @@ body{
 /* Partie pour Styler Header*/
 
 header{
-    margin-bottom: 10%;
+    margin-bottom: 6%;
     color: white;
 }
 
@@ -106,16 +106,46 @@ header li:hover{
 }
 
 .sklsction{
-    margin-bottom: 15%;
+    margin-bottom: 10%;
+}
+
+.sklttl{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #8a2be2;
+}
+
+.sklprgph{
+    color: #49148a;
+    font-size: 1.15rem;
+    font-weight: 500;
 }
 
 .skldiv{
     margin-top: 5%;
+    display: flex;
+    column-gap: 5%;
+    padding-left: 21.5%;
+    
+}
+
+.skldivscnd{
+    margin-top: 5%;
+    display: flex;
+    column-gap: 5%;
+    padding-left: 30.5%;
+    
+}
+
+.skldivthrd{
+    margin-top: 5%;
+    column-gap: 5%;
+    padding-left: 41.5%;
     
 }
 
 .skldiv1{
-   width: 14.25rem;
+   width: 16.25rem;
    height: 16rem;
    background-color: #f06090;
    border-radius: 10px;
@@ -154,9 +184,9 @@ header li:hover{
 
 
 .div2img{
-    height: 4.5rem;
-    width: 4.5rem;
-    margin-left: 34%;
+    height: 6.5rem;
+    width: 12.5rem;
+    margin-left: 8%;
 }
 
 .div2img:hover{
@@ -171,9 +201,9 @@ header li:hover{
 
 
 .div3img{
-    height: 4.5rem;
-    width: 4.5rem;
-    margin-left: 34%;
+    height: 6.5rem;
+    width: 18.5rem;
+    margin-left: -7%;
 }
 
 .div3img:hover{
@@ -187,7 +217,74 @@ header li:hover{
 
 
 
+
+.div4img{
+    height: 6.5rem;
+    width: 7.5rem;
+    margin-left: 29%;
+}
+
+.div4img:hover{
+    cursor: pointer;
+}
+
+.div4img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.div5img{
+    height: 9.5rem;
+    width: 20.5rem;
+    margin-left: -15%;
+    margin-top: -20%;
+}
+
+.div5img:hover{
+    cursor: pointer;
+}
+
+.div5img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.div6img{
+    height: 7.5rem;
+    width: 11.5rem;
+    margin-left: 11%;
+}
+
+.div6img:hover{
+    cursor: pointer;
+}
+
+.div6img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
 /* Partie pour Styler la section About*/
+
+.abtsction{
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+
 .abtsction h2, p{
     text-align: center;
 }
+
+.abtprgdiv{
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px 50px;
+    font-size: 1.4rem;
+}
+
+
+/* Partie pour Styler la section Parcours*/
